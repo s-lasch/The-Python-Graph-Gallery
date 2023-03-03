@@ -132,7 +132,7 @@ export default function Pie() {
           the evolution of a temperature is displayed over the hour of the day (Y axis) and the day of the year (X axis) organized by month.
         </p>
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: 30 }}>
-          <Link to='/heatmap-for-timeseries-matplotlib-square'>
+          <Link to='/heatmap-for-timeseries-matplotlib'>
             <ChartImage imgName={'heatmap-for-timeseries-matplotlib'} caption={'A heatmap for temporal data with Python and Matplotlib'} />
           </Link>
         </div>
@@ -165,6 +165,11 @@ export default function Pie() {
             imgName="web-highlighted-lineplot-with-faceting-square"
             caption="A multipanel connected scatterplot, with several groups displayed and one highlighted per panel."
             linkTo="/web-highlighted-lineplot-with-faceting"
+          />
+          <ChartImageContainer
+            imgName="web-lineplots-and-area-chart-the-economist-square1"
+            caption="Learn how to mimick The Economist's style with a figure combining both a line and an area chart."
+            linkTo="/web-lineplots-and-area-chart-the-economist"
           />
         </Row>
       </Container>
